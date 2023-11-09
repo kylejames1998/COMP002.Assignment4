@@ -20,7 +20,14 @@ console.log(min(18273817313, 1)); // 1
 // Example Output:
 // console.log(calculateCircumference(5)); // will output 31.4
 
+const calculateCircumference = function (radius) {
+    const pi = 3.14;
+    let circumference = 2 * pi * radius;
+    return circumference;
+}
 
+console.log(calculateCircumference(5)); // 31.4
+console.log(calculateCircumference(12)); // 75.36
 
 
 // 3. Write a function searchString that takes a character and then returns how many times it appears in another string argument.
